@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body
+            {
+                background:linear-gradient(to right,#f571c2 50%,#f7edf4 50%);
+            }
+            .mainBox
+            {
+                width:90%;
+                height:70%;
+                margin-left: 5%;
+                margin-top: 10%;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .top-list
+            {
+                list-style:none;
+                margin-left: 400px;
+                display:inline-block;
+            }
+            li
+            {
+                display:inline-block;
+                margin-left: 20px;
+                font-family:calibri;
+
+            }
+            .logo
+            {
+                margin-left:50px;
+            }
+            .tm
+            {
+                font-size: 10px;
+            }
+            .ns
+            {
+                font-size:50px;
+                margin-left:50px;
+                font-family:calibri;
+            }
+            .lorem
+            {
+                font-size: 10px;
+                font-family:calibri;
+                margin-left:50px;
+            }
+            .buy-now
+            {
+                background-color: #f571c2;
+                height:40px;
+                width:100px;
+                margin-left:50px;
+                color:white;
+                border:none;
+            }
+            .nike
+            {
+                float:left;
+                width:400px;
+
+            }
+            .fb
+            {
+                margin-left:50px;
+            }
+            .insta
+            {
+                display:inline-block;
+            }
+            .shoe
+            {
+                margin-left:100px;
+                display:inline-block;
+            }
+            .as
+            {
+                margin-right:100px;
+                margin-top:220px;
+                float:right;
+                width:200px;
+                height:20px;
+                font-family:calibri;
+            }
+            input[type=range] {
+  height: 26px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #F571C2;
+  border-radius: 5px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #F571C2;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #F571C2;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #F571C2;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #F571C2;
+  border-radius: 5px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #F571C2;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #F571C2;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #F571C2;
+  border: 0px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+  background: #F571C2;
+  border: 0px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #F571C2;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #F571C2;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #F571C2;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #F571C2;
+}
+        </style>
+    </head>
+    
+    <body>
+        <div class="mainBox">
+            <img src="logo.png" width="40px" height="20px" class="logo">
+            <img src="nike.jpg" width="40px" height="20px" class="logo2">
+            <ul class="top-list">
+                <li>HOME</li>
+                <li>FEATURED</li>
+                <li>PRODUCT</li>
+                <li>ABOUT US</li>
+                <li>CONTACT US</li>
+            </ul>
+            <div class="nike">
+                <p class="ns"><b>NIKE SHOES</b><sup class="tm">TM</sup></p>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit illo molestias</p><br>
+                <button class="buy-now">BUY NOW</button><br><br><br><br><br>
+                <img src="fb.png" height="25px" width="25px" class="fb">
+                <img src="insta.jpg" height="25px" width="25px" class="insta">
+                <img src="twitter.jpg" height="25px" width="25px" class="twitter">
+            </div>
+            <img src="shoe.jpg" class="shoe" >
+            <div class="as">
+                <b>Apply Size</b><br><input type="range" class="slider" min="1" max="5" value="0"><br>
+                <p>20 &nbsp &nbsp &nbsp &nbsp 25 &nbsp &nbsp &nbsp 30 &nbsp &nbsp &nbsp &nbsp 35 &nbsp &nbsp &nbsp 40</p>
+            </div>
+        </div>
+    </body>
+</html>
